@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07C0EE7C834701555991E161 /* Pods_Personality_Similarity_CalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300FB66E0FCCE20E148F057F /* Pods_Personality_Similarity_CalculatorTests.framework */; };
+		3D87CB6E256525F000FDEC54 /* Personality_Similarity_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D87CB6D256525F000FDEC54 /* Personality_Similarity_CalculatorApp.swift */; };
+		3D87CB70256525F000FDEC54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D87CB6F256525F000FDEC54 /* ContentView.swift */; };
+		3D87CB72256525F200FDEC54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D87CB71256525F200FDEC54 /* Assets.xcassets */; };
+		3D87CB75256525F200FDEC54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D87CB74256525F200FDEC54 /* Preview Assets.xcassets */; };
+		3D87CB80256525F200FDEC54 /* Personality_Similarity_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D87CB7F256525F200FDEC54 /* Personality_Similarity_CalculatorTests.swift */; };
+		3D87CB8B256525F200FDEC54 /* Personality_Similarity_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D87CB8A256525F200FDEC54 /* Personality_Similarity_CalculatorUITests.swift */; };
+		3D87CB9C2565408A00FDEC54 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D87CB9B2565408A00FDEC54 /* GoogleService-Info.plist */; };
+		3D87CB9D2565408A00FDEC54 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D87CB9B2565408A00FDEC54 /* GoogleService-Info.plist */; };
+		3D87CB9E2565408A00FDEC54 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D87CB9B2565408A00FDEC54 /* GoogleService-Info.plist */; };
+		B0195537BCABD455B4EAC12F /* Pods_Personality_Similarity_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA0315B7D62DA475ED07D2D /* Pods_Personality_Similarity_Calculator.framework */; };
+		CBF6165AC0CD34B60BE37EBC /* Pods_Personality_Similarity_Calculator_Personality_Similarity_CalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0320752D897BA01D822F6A /* Pods_Personality_Similarity_Calculator_Personality_Similarity_CalculatorUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D87CB7C256525F200FDEC54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D87CB62256525F000FDEC54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D87CB69256525F000FDEC54;
+			remoteInfo = "Personality Similarity Calculator";
+		};
+		3D87CB87256525F200FDEC54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D87CB62256525F000FDEC54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D87CB69256525F000FDEC54;
+			remoteInfo = "Personality Similarity Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A93DED1DFA32BB0CD6E7AF2 /* Pods-Personality Similarity Calculator-Personality Similarity CalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personality Similarity Calculator-Personality Similarity CalculatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-Personality Similarity Calculator-Personality Similarity CalculatorUITests/Pods-Personality Similarity Calculator-Personality Similarity CalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		300FB66E0FCCE20E148F057F /* Pods_Personality_Similarity_CalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Personality_Similarity_CalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3512B6E6E8280B0A69AF3E61 /* Pods-Personality Similarity Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personality Similarity Calculator.release.xcconfig"; path = "Target Support Files/Pods-Personality Similarity Calculator/Pods-Personality Similarity Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		3D87CB6A256525F000FDEC54 /* Personality Similarity Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personality Similarity Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D87CB6D256525F000FDEC54 /* Personality_Similarity_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personality_Similarity_CalculatorApp.swift; sourceTree = "<group>"; };
+		3D87CB6F256525F000FDEC54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D87CB71256525F200FDEC54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D87CB74256525F200FDEC54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D87CB76256525F200FDEC54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D87CB7B256525F200FDEC54 /* Personality Similarity CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personality Similarity CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D87CB7F256525F200FDEC54 /* Personality_Similarity_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personality_Similarity_CalculatorTests.swift; sourceTree = "<group>"; };
+		3D87CB81256525F200FDEC54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D87CB86256525F200FDEC54 /* Personality Similarity CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personality Similarity CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D87CB8A256525F200FDEC54 /* Personality_Similarity_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personality_Similarity_CalculatorUITests.swift; sourceTree = "<group>"; };
+		3D87CB8C256525F200FDEC54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D87CB9B2565408A00FDEC54 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3E0320752D897BA01D822F6A /* Pods_Personality_Similarity_Calculator_Personality_Similarity_CalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Personality_Similarity_Calculator_Personality_Similarity_CalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD4C707ADB5F7AA923FE118 /* Pods-Personality Similarity Calculator-Personality Similarity CalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personality Similarity Calculator-Personality Similarity CalculatorUITests.release.xcconfig"; path = "Target Support Files/Pods-Personality Similarity Calculator-Personality Similarity CalculatorUITests/Pods-Personality Similarity Calculator-Personality Similarity CalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		87FB5198C4357F9053F6EBB2 /* Pods-Personality Similarity CalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personality Similarity CalculatorTests.release.xcconfig"; path = "Target Support Files/Pods-Personality Similarity CalculatorTests/Pods-Personality Similarity CalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		8871B7D00B5EE2055E7772BC /* Pods-Personality Similarity CalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personality Similarity CalculatorTests.debug.xcconfig"; path = "Target Support Files/Pods-Personality Similarity CalculatorTests/Pods-Personality Similarity CalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91878A500668E95512A0AAAD /* Pods-Personality Similarity Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personality Similarity Calculator.debug.xcconfig"; path = "Target Support Files/Pods-Personality Similarity Calculator/Pods-Personality Similarity Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		AEA0315B7D62DA475ED07D2D /* Pods_Personality_Similarity_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Personality_Similarity_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D87CB67256525F000FDEC54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0195537BCABD455B4EAC12F /* Pods_Personality_Similarity_Calculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D87CB78256525F200FDEC54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C0EE7C834701555991E161 /* Pods_Personality_Similarity_CalculatorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D87CB83256525F200FDEC54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF6165AC0CD34B60BE37EBC /* Pods_Personality_Similarity_Calculator_Personality_Similarity_CalculatorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21530F15151D5EAE7243D019 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91878A500668E95512A0AAAD /* Pods-Personality Similarity Calculator.debug.xcconfig */,
+				3512B6E6E8280B0A69AF3E61 /* Pods-Personality Similarity Calculator.release.xcconfig */,
+				1A93DED1DFA32BB0CD6E7AF2 /* Pods-Personality Similarity Calculator-Personality Similarity CalculatorUITests.debug.xcconfig */,
+				4AD4C707ADB5F7AA923FE118 /* Pods-Personality Similarity Calculator-Personality Similarity CalculatorUITests.release.xcconfig */,
+				8871B7D00B5EE2055E7772BC /* Pods-Personality Similarity CalculatorTests.debug.xcconfig */,
+				87FB5198C4357F9053F6EBB2 /* Pods-Personality Similarity CalculatorTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3D87CB61256525F000FDEC54 = {
+			isa = PBXGroup;
+			children = (
+				3D87CB6C256525F000FDEC54 /* Personality Similarity Calculator */,
+				3D87CB7E256525F200FDEC54 /* Personality Similarity CalculatorTests */,
+				3D87CB89256525F200FDEC54 /* Personality Similarity CalculatorUITests */,
+				3D87CB6B256525F000FDEC54 /* Products */,
+				21530F15151D5EAE7243D019 /* Pods */,
+				57E85E54721C660B6A8F200C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D87CB6B256525F000FDEC54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D87CB6A256525F000FDEC54 /* Personality Similarity Calculator.app */,
+				3D87CB7B256525F200FDEC54 /* Personality Similarity CalculatorTests.xctest */,
+				3D87CB86256525F200FDEC54 /* Personality Similarity CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D87CB6C256525F000FDEC54 /* Personality Similarity Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				3D87CB6D256525F000FDEC54 /* Personality_Similarity_CalculatorApp.swift */,
+				3D87CB6F256525F000FDEC54 /* ContentView.swift */,
+				3D87CB71256525F200FDEC54 /* Assets.xcassets */,
+				3D87CB76256525F200FDEC54 /* Info.plist */,
+				3D87CB9B2565408A00FDEC54 /* GoogleService-Info.plist */,
+				3D87CB73256525F200FDEC54 /* Preview Content */,
+			);
+			path = "Personality Similarity Calculator";
+			sourceTree = "<group>";
+		};
+		3D87CB73256525F200FDEC54 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D87CB74256525F200FDEC54 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D87CB7E256525F200FDEC54 /* Personality Similarity CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D87CB7F256525F200FDEC54 /* Personality_Similarity_CalculatorTests.swift */,
+				3D87CB81256525F200FDEC54 /* Info.plist */,
+			);
+			path = "Personality Similarity CalculatorTests";
+			sourceTree = "<group>";
+		};
+		3D87CB89256525F200FDEC54 /* Personality Similarity CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D87CB8A256525F200FDEC54 /* Personality_Similarity_CalculatorUITests.swift */,
+				3D87CB8C256525F200FDEC54 /* Info.plist */,
+			);
+			path = "Personality Similarity CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		57E85E54721C660B6A8F200C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEA0315B7D62DA475ED07D2D /* Pods_Personality_Similarity_Calculator.framework */,
+				3E0320752D897BA01D822F6A /* Pods_Personality_Similarity_Calculator_Personality_Similarity_CalculatorUITests.framework */,
+				300FB66E0FCCE20E148F057F /* Pods_Personality_Similarity_CalculatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D87CB69256525F000FDEC54 /* Personality Similarity Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D87CB8F256525F300FDEC54 /* Build configuration list for PBXNativeTarget "Personality Similarity Calculator" */;
+			buildPhases = (
+				6FE8CC6370952D1CF61DCF53 /* [CP] Check Pods Manifest.lock */,
+				3D87CB66256525F000FDEC54 /* Sources */,
+				3D87CB67256525F000FDEC54 /* Frameworks */,
+				3D87CB68256525F000FDEC54 /* Resources */,
+				96C5211B2A40DC6BC4C481C7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Personality Similarity Calculator";
+			productName = "Personality Similarity Calculator";
+			productReference = 3D87CB6A256525F000FDEC54 /* Personality Similarity Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D87CB7A256525F200FDEC54 /* Personality Similarity CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D87CB92256525F300FDEC54 /* Build configuration list for PBXNativeTarget "Personality Similarity CalculatorTests" */;
+			buildPhases = (
+				06EA71C0AC754775C7171736 /* [CP] Check Pods Manifest.lock */,
+				3D87CB77256525F200FDEC54 /* Sources */,
+				3D87CB78256525F200FDEC54 /* Frameworks */,
+				3D87CB79256525F200FDEC54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D87CB7D256525F200FDEC54 /* PBXTargetDependency */,
+			);
+			name = "Personality Similarity CalculatorTests";
+			productName = "Personality Similarity CalculatorTests";
+			productReference = 3D87CB7B256525F200FDEC54 /* Personality Similarity CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D87CB85256525F200FDEC54 /* Personality Similarity CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D87CB95256525F300FDEC54 /* Build configuration list for PBXNativeTarget "Personality Similarity CalculatorUITests" */;
+			buildPhases = (
+				4637B49B25929FE21C3E052C /* [CP] Check Pods Manifest.lock */,
+				3D87CB82256525F200FDEC54 /* Sources */,
+				3D87CB83256525F200FDEC54 /* Frameworks */,
+				3D87CB84256525F200FDEC54 /* Resources */,
+				2136CAF58BDF4FAE1C6D7BC7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D87CB88256525F200FDEC54 /* PBXTargetDependency */,
+			);
+			name = "Personality Similarity CalculatorUITests";
+			productName = "Personality Similarity CalculatorUITests";
+			productReference = 3D87CB86256525F200FDEC54 /* Personality Similarity CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D87CB62256525F000FDEC54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					3D87CB69256525F000FDEC54 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					3D87CB7A256525F200FDEC54 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 3D87CB69256525F000FDEC54;
+					};
+					3D87CB85256525F200FDEC54 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 3D87CB69256525F000FDEC54;
+					};
+				};
+			};
+			buildConfigurationList = 3D87CB65256525F000FDEC54 /* Build configuration list for PBXProject "Personality Similarity Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D87CB61256525F000FDEC54;
+			productRefGroup = 3D87CB6B256525F000FDEC54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D87CB69256525F000FDEC54 /* Personality Similarity Calculator */,
+				3D87CB7A256525F200FDEC54 /* Personality Similarity CalculatorTests */,
+				3D87CB85256525F200FDEC54 /* Personality Similarity CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D87CB68256525F000FDEC54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D87CB75256525F200FDEC54 /* Preview Assets.xcassets in Resources */,
+				3D87CB72256525F200FDEC54 /* Assets.xcassets in Resources */,
+				3D87CB9C2565408A00FDEC54 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D87CB79256525F200FDEC54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D87CB9D2565408A00FDEC54 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D87CB84256525F200FDEC54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D87CB9E2565408A00FDEC54 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06EA71C0AC754775C7171736 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Personality Similarity CalculatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2136CAF58BDF4FAE1C6D7BC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Personality Similarity Calculator-Personality Similarity CalculatorUITests/Pods-Personality Similarity Calculator-Personality Similarity CalculatorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Personality Similarity Calculator-Personality Similarity CalculatorUITests/Pods-Personality Similarity Calculator-Personality Similarity CalculatorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Personality Similarity Calculator-Personality Similarity CalculatorUITests/Pods-Personality Similarity Calculator-Personality Similarity CalculatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4637B49B25929FE21C3E052C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Personality Similarity Calculator-Personality Similarity CalculatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FE8CC6370952D1CF61DCF53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Personality Similarity Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96C5211B2A40DC6BC4C481C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Personality Similarity Calculator/Pods-Personality Similarity Calculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Personality Similarity Calculator/Pods-Personality Similarity Calculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Personality Similarity Calculator/Pods-Personality Similarity Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D87CB66256525F000FDEC54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D87CB70256525F000FDEC54 /* ContentView.swift in Sources */,
+				3D87CB6E256525F000FDEC54 /* Personality_Similarity_CalculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D87CB77256525F200FDEC54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D87CB80256525F200FDEC54 /* Personality_Similarity_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D87CB82256525F200FDEC54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D87CB8B256525F200FDEC54 /* Personality_Similarity_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D87CB7D256525F200FDEC54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D87CB69256525F000FDEC54 /* Personality Similarity Calculator */;
+			targetProxy = 3D87CB7C256525F200FDEC54 /* PBXContainerItemProxy */;
+		};
+		3D87CB88256525F200FDEC54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D87CB69256525F000FDEC54 /* Personality Similarity Calculator */;
+			targetProxy = 3D87CB87256525F200FDEC54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D87CB8D256525F300FDEC54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D87CB8E256525F300FDEC54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D87CB90256525F300FDEC54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91878A500668E95512A0AAAD /* Pods-Personality Similarity Calculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Personality Similarity Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = BNSZP9RLZ6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Personality Similarity Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "milesBroomfield.com.Personality-Similarity-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D87CB91256525F300FDEC54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3512B6E6E8280B0A69AF3E61 /* Pods-Personality Similarity Calculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Personality Similarity Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = BNSZP9RLZ6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Personality Similarity Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "milesBroomfield.com.Personality-Similarity-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D87CB93256525F300FDEC54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8871B7D00B5EE2055E7772BC /* Pods-Personality Similarity CalculatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BNSZP9RLZ6;
+				INFOPLIST_FILE = "Personality Similarity CalculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "milesBroomfield.com.Personality-Similarity-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Personality Similarity Calculator.app/Personality Similarity Calculator";
+			};
+			name = Debug;
+		};
+		3D87CB94256525F300FDEC54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87FB5198C4357F9053F6EBB2 /* Pods-Personality Similarity CalculatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BNSZP9RLZ6;
+				INFOPLIST_FILE = "Personality Similarity CalculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "milesBroomfield.com.Personality-Similarity-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Personality Similarity Calculator.app/Personality Similarity Calculator";
+			};
+			name = Release;
+		};
+		3D87CB96256525F300FDEC54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A93DED1DFA32BB0CD6E7AF2 /* Pods-Personality Similarity Calculator-Personality Similarity CalculatorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BNSZP9RLZ6;
+				INFOPLIST_FILE = "Personality Similarity CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "milesBroomfield.com.Personality-Similarity-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Personality Similarity Calculator";
+			};
+			name = Debug;
+		};
+		3D87CB97256525F300FDEC54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD4C707ADB5F7AA923FE118 /* Pods-Personality Similarity Calculator-Personality Similarity CalculatorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BNSZP9RLZ6;
+				INFOPLIST_FILE = "Personality Similarity CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "milesBroomfield.com.Personality-Similarity-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Personality Similarity Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D87CB65256525F000FDEC54 /* Build configuration list for PBXProject "Personality Similarity Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D87CB8D256525F300FDEC54 /* Debug */,
+				3D87CB8E256525F300FDEC54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D87CB8F256525F300FDEC54 /* Build configuration list for PBXNativeTarget "Personality Similarity Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D87CB90256525F300FDEC54 /* Debug */,
+				3D87CB91256525F300FDEC54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D87CB92256525F300FDEC54 /* Build configuration list for PBXNativeTarget "Personality Similarity CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D87CB93256525F300FDEC54 /* Debug */,
+				3D87CB94256525F300FDEC54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D87CB95256525F300FDEC54 /* Build configuration list for PBXNativeTarget "Personality Similarity CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D87CB96256525F300FDEC54 /* Debug */,
+				3D87CB97256525F300FDEC54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D87CB62256525F000FDEC54 /* Project object */;
+}

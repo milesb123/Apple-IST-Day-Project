@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Personality_Similarity_Calculator_Personality_Similarity_CalculatorUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Personality_Similarity_Calculator_Personality_Similarity_CalculatorUITests
+@end
